@@ -59,7 +59,7 @@ HashMap * createMap(long capacity) {
   aux->current=-1; 
   aux->buckets = (Pair**)malloc(sizeof(Pair*));
   
-    return NULL;
+  return aux;
 }
 
 void eraseMap(HashMap * map,  char * key) {    
